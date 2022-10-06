@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 700px;
+  height: 1px;
+  background-color: aqua;
+  border: none;
+}
+
+.title {
+color: rgb(22, 139, 139);
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: yellow;
+
+  width: 450px;
+  height: 450px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+
+  width: 147px;
+  height: 147px;
+}
+
+.horizontal-line {
+  border-bottom: 3px solid white;
+}
+
+.vertical-line {
+  border-right: 3px solid white;
+}
+.winner {
+  background-color:aqua;
+  color: rgb(22, 139, 139); 
+}
